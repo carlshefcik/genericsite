@@ -1,48 +1,15 @@
 {
-  "name": "genericsite",
-  "version": "0.1.0",
-  "private": true,
+  "name": "staticsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "deploy": "gh-pages -d dist"
   },
+  "author": "Carl Shefcik",
+  "license": "MIT",
+  "homepage": "http://carlshefcik.github.io/genericsite",
   "dependencies": {
-    "animejs": "^2.2.0",
-    "firebase": "^5.3.0",
-    "vee-validate": "^2.1.0-beta.6",
-    "vue": "^2.5.16",
-    "vue-animejs": "^1.0.1",
-    "vue-router": "^3.0.1"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
-    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
-    "@vue/cli-service": "^3.0.0-rc.5",
-    "vue-template-compiler": "^2.5.16"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "gh-pages": "^2.0.0"
+  }
 }
