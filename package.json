@@ -10,6 +10,6 @@
   "license": "MIT",
   "homepage": "http://carlshefcik.github.io/genericsite",
   "dependencies": {
-    "gh-pages": "^2.0.0"
+    "gh-pages": "^2.0.1"
   }
 }
